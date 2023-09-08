@@ -1,5 +1,5 @@
 
-# Decribtion
+# Description
 
 Purpose of this project is to write/read firmware on flash by lan connection. 
 
