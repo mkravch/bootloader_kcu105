@@ -17,16 +17,18 @@ To build a project just **cd** to the project and run make:
 
 ## Software
 
-After building the project, run Vivado -> open project -> Launch SDK (exported location - /sw_src; workspace - /sw_src)
+1. After building the project, run Vivado -> open project -> Launch SDK (exported location - /sw_src; workspace - /sw_src)
 
-In SDK file/new/project -> specify name, next -> empty application -> finish
+2. In SDK file/new/project -> specify name, next -> empty application -> finish
 
-in system.mss add lwip141
+3. In system.mss add lwip141.
+
+4. Аdd sw_src/src files to your project.
 
 ## How to use
 
 1. Make firmware and convert it to bin format.
-2. In load_firmware.py specify fileName and run script 
+2. In load_firmware.py specify fileName and run script.
 
 
 
