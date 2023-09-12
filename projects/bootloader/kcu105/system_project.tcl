@@ -18,3 +18,5 @@ adi_project_run bootloader_kcu105 1
 set_property strategy Performance_ExplorePostRoutePhysOpt [get_runs impl_1]
 adi_project_run bootloader_kcu105 2
 
+file copy -force system_wrapper.hdf sw_src/system_wrapper.hdf
+file delete -force system_wrapper.hdf

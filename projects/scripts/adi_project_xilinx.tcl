@@ -453,7 +453,7 @@ proc adi_project_run {project_name {mode 0}} {
   } else {
     #new vivado versions
     #write_hw_platform -fixed -force  -include_bit -file $project_name.sdk/system_wrapper.xsa
-    file copy -force $project_name.runs/impl_1/system_wrapper.sysdef sw_src/system_wrapper.hdf
+    file copy -force $project_name.runs/impl_1/system_wrapper.sysdef system_wrapper.hdf
   }
     # #vivado171
     # if { ![file isdirectory $project_name.sdk] } {

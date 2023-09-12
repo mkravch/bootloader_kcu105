@@ -18,3 +18,5 @@ adi_project_run leds_kcu105 1
 set_property strategy Performance_ExplorePostRoutePhysOpt [get_runs impl_1]
 adi_project_run leds_kcu105 2
 
+write_cfgmem -force -format BIN -size 32 -interface SPIx4 -loadbit "up 0x0 $ad_hdl_dir/projects/leds/kcu105/leds_kcu105.runs/impl_1/system_wrapper.bit" $ad_hdl_dir/projects/leds/kcu105/leds.bin
+file delete -force system_wrapper.hdf
