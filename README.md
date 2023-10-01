@@ -1,7 +1,7 @@
 
 # Description
 
-Purpose of this project is to write/read firmware on flash by lan connection. 
+Purpose of this project is to write/read firmware through Dual Quad-SPI on flash by lan connection. 
 
 
 ## How to build a project
@@ -30,5 +30,14 @@ To build a project just **cd** to the project and run make:
 1. Make firmware and convert it to bin format.
 2. In load_firmware.py specify fileName and run script.
 
+## Example firmware
 
+There is leds project that contains all required constrains to be flash firmware.
 
+To build a project just **cd** to the project and run make:
+```
+ [~]cd projects/leds/kcu105
+ [~]make
+```
+
+After building the project there will generate leds.bin in project dir.
